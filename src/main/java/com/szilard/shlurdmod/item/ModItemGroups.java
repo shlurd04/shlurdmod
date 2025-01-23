@@ -29,9 +29,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static final ItemGroup SHLURDMOD_ITEMS = Registry.register(Registries.ITEM_GROUP,
@@ -40,6 +40,22 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.shlurdmod.shlurdmod_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CHISEL);
+                    }).build());
+
+    public static final ItemGroup SHLURDMOD_FOOD = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Shlurdmod.MOD_ID, "shlurdmod_food"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CAULIFLOWER))
+                    .displayName(Text.translatable("itemgroup.shlurdmod.shlurdmod_food"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CAULIFLOWER);
+                    }).build());
+
+    public static final ItemGroup SHLURDMOD_INGREDIENTS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Shlurdmod.MOD_ID, "shlurdmod_ingredients"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.NEUTRON_STAR))
+                    .displayName(Text.translatable("itemgroup.shlurdmod.shlurdmod_ingredients"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.NEUTRON_STAR);
                     }).build());
 
     public static void registerItemGroups() {

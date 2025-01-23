@@ -2,13 +2,18 @@
   "item.shlurdmod.pink_garnet": "Pink Garnet",
   "item.shlurdmod.raw_pink_garnet": "Raw Pink Garnet",
   "item.shlurdmod.chisel": "Chisel",
+  "item.shlurdmod.cauliflower": "Cauliflower",
+  "item.shlurdmod.neutron_star": "Neutron Star",
 
   "block.shlurdmod.pink_garnet_block": "Block of Pink Garnet",
   "block.shlurdmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "block.shlurdmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.shlurdmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.shlurdmod.magic_block": "Magic Block",
 
   "itemgroup.shlurdmod.pink_garnet_items": "Pink Garnet Items",
   "itemgroup.shlurdmod.pink_garnet_blocks": "Pink Garnet Blocks",
-  "itemgroup.shlurdmod.shlurdmod_items": "Shlurdmod Items"
+  "itemgroup.shlurdmod.shlurdmod_items": "Shlurdmod Items",
+  "itemgroup.shlurdmod.shlurdmod_food": "Shlurdmod Food",
+  "itemgroup.shlurdmod.shlurdmod_ingredients": "Shlurdmod Ingredients"
 }
