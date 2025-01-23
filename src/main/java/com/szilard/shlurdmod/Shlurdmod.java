@@ -1,6 +1,7 @@
 package com.szilard.shlurdmod;
 
 import com.szilard.shlurdmod.block.ModBlocks;
+import com.szilard.shlurdmod.item.ModItemGroups;
 import com.szilard.shlurdmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class Shlurdmod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}

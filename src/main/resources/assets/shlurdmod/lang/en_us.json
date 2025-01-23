@@ -2,5 +2,7 @@
   "item.shlurdmod.pink_garnet": "Pink Garnet",
   "item.shlurdmod.raw_pink_garnet": "Raw Pink Garnet",
   "block.shlurdmod.pink_garnet_block": "Block of Pink Garnet",
-  "block.shlurdmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.shlurdmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "itemgroup.shlurdmod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.shlurdmod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
