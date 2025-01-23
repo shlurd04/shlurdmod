@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "shlurdmod:pink_garnet_block",
+    "shlurdmod:raw_pink_garnet_block",
+    "shlurdmod:pink_garnet_ore",
+    "shlurdmod:pink_garnet_deepslate_ore"
+  ]
+}
