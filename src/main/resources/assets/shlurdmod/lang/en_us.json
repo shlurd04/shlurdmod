@@ -15,5 +15,10 @@
   "itemgroup.shlurdmod.pink_garnet_blocks": "Pink Garnet Blocks",
   "itemgroup.shlurdmod.shlurdmod_items": "Shlurdmod Items",
   "itemgroup.shlurdmod.shlurdmod_food": "Shlurdmod Food",
-  "itemgroup.shlurdmod.shlurdmod_ingredients": "Shlurdmod Ingredients"
+  "itemgroup.shlurdmod.shlurdmod_ingredients": "Shlurdmod Ingredients",
+
+  "tooltip.shlurdmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+  "tooltip.shlurdmod.chisel.shift_down": "This item chisels blocks into Bricks!",
+  "tooltip.shlurdmod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.shlurdmod.cauliflower.tooltip": "This is delicious!"
 }
