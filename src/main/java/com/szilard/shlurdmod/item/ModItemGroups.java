@@ -2,6 +2,7 @@ package com.szilard.shlurdmod.item;
 
 import com.szilard.shlurdmod.Shlurdmod;
 import com.szilard.shlurdmod.block.ModBlocks;
+import com.szilard.shlurdmod.item.custom.ChiselItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -31,6 +32,14 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
+                    }).build());
+
+    public static final ItemGroup SHLURDMOD_ITEMS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(Shlurdmod.MOD_ID, "shlurdmod_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CHISEL))
+                    .displayName(Text.translatable("itemgroup.shlurdmod.shlurdmod_items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static void registerItemGroups() {
