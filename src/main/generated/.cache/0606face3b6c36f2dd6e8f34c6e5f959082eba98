@@ -1,0 +1,4 @@
+// 1.21	2025-01-23T23:45:56.2785628	shlurdmod/Tags for minecraft:block
+0def0d6f2f2c35bf795b2c2c27f9602632510577 data\minecraft\tags\block\mineable\pickaxe.json
+cbe48ff8ede2209c1e52148527aab1ac6655d438 data\minecraft\tags\block\needs_iron_tool.json
+31b41bfbd6cb108d6e6202e76f8e8aa92ab41f8c data\minecraft\tags\block\needs_diamond_tool.json

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "shlurdmod:raw_pink_garnet_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "shlurdmod:raw_pink_garnet"
+  }
+}
